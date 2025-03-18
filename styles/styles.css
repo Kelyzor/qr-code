@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Space+Grotesk:wght@300..700&display=swap');
+
+:root {
+  --white: hsl(0, 0%, 100%);
+  --slate-300: hsl(212, 45%, 89%);
+  --slate-500: hsl(216, 15%, 48%);
+  --slate-900: hsl(218, 44%, 22%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--slate-300);
+  font-family: 'Outfit', sans-serif;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  width: 320px;
+  height: 499px;
+  background-color: #FFFFFF;
+  border-radius: 20px;
+  padding: 16px 16px 40px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.qr-code-img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.main-text {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-top: 24px;
+}
+
+.main-text h1 {
+  font-size: 22px;
+  line-height: 120%;
+  color: var(--slate-900);
+  font-weight: 700;
+}
+
+.main-text p {
+  margin-top: 16px;
+  font-size: 15px;
+  line-height: 140%;
+  color: var(--slate-500);
+  font-weight: 400;
+  letter-spacing: 0.2px;
+}
